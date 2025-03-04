@@ -6,7 +6,6 @@ import { BiSearch } from "react-icons/bi";
 import axios from "axios";
 
 const API_KEY = import.meta.env.VITE_API_KEY;
-console.log(API_KEY);
 
 const App = () => {
   const [query, setQuery] = useState("");
